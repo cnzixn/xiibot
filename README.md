@@ -8,6 +8,7 @@
 
 ```bash
 # npm i oicq
+# git clone https://github.com/cnzixn/xiibot
 # cp -r xiibot oicq
 ```
 
