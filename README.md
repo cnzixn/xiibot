@@ -7,8 +7,18 @@
 **Install:**
 
 ```bash
-# npm i oicq
-# git clone https://github.com/cnzixn/xiibot
-# cp -r xiibot oicq
+#下载oicq
+git clone https://github.com/takayama-lily/oicq
+#安装依赖
+npm i oicq
+npm i chokidar
+#下载xiibot
+git clone https://github.com/cnzixn/xiibot
+#xiibot复制到oicq
+cp -r xiibot/* oicq
+#修改账号密码
+vim oicq/xiibot.js
+#运行xiibot.js
+node oicq/xiibot.js
 ```
 
