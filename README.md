@@ -14,6 +14,8 @@ npm i oicq
 npm i chokidar
 #下载xiibot
 git clone https://github.com/cnzixn/xiibot
+#重命名xii说明文档
+mv xiibot/README.md xiibot/README-xii.md 
 #xiibot复制到oicq
 cp -r xiibot/* oicq
 #修改账号密码
